@@ -1,5 +1,10 @@
 Link to TinkerCAD project:  https://www.tinkercad.com/things/4CSwvqEoNfi 
 
+Turn the potentiometer and the BCD displays will represent its output from 00 to 99.
+
+***
+Detailed explanation:
+
 The potentiometer is hooked up to ground and 5V. There is a third wire coming out of it which is the output of the potentiometer. When dial is fully counterclockwise, resistance is high and no current/voltage is output. When the dial is fully clockwise, resistance is negligible and approximately 5V is the output. If the dial is halfway, voltage will be 2.5V.
 
 This output is wired into the Arduino UNO's A0 input port. The input is read into the microcontroller using command "sensorValue = analogRead(potInPin);". When the Arduino reads in the voltage, 0V is represented as 0 and 5V is represented as 1023, and it scales linearly in between.
