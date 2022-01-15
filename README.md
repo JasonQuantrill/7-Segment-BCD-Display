@@ -1,5 +1,3 @@
-# R3-SoftwareTask1-JasonQuantrill
-
 Link to TinkerCAD project:  https://www.tinkercad.com/things/4CSwvqEoNfi 
 
 The potentiometer is hooked up to ground and 5V. There is a third wire coming out of it which is the output of the potentiometer. When dial is fully counterclockwise, resistance is high and no current/voltage is output. When the dial is fully clockwise, resistance is negligible and approximately 5V is the output. If the dial is halfway, voltage will be 2.5V.
