@@ -36,7 +36,7 @@ void decimalToBinary(int num)
   
   if ((num / 4) == 1) {
     binaryNum[1] = 1;
-    num %= 4;
+    num %= 5;
   }
   else {
     binaryNum[1] = 0;
